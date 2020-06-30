@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geeks.PortableDI", "Geeks.PortableDI\Geeks.PortableDI.csproj", "{F3EA87F6-95B3-45F2-A2AF-4838E2239784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geeks.PortableDI.Tests", "Geeks.PortableDI.Tests\Geeks.PortableDI.Tests.csproj", "{3537BB65-E976-47FF-8521-C68665A04404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B5370186-8558-4F1C-9957-F27B161D1B0E}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs15
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Geeks.PortableDI\\Geeks.PortableDI.csproj
+		SccProjectName1 = Geeks.PortableDI
+		SccLocalPath1 = Geeks.PortableDI
+		SccProjectUniqueName2 = Geeks.PortableDI.Tests\\Geeks.PortableDI.Tests.csproj
+		SccProjectName2 = Geeks.PortableDI.Tests
+		SccLocalPath2 = Geeks.PortableDI.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3EA87F6-95B3-45F2-A2AF-4838E2239784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EA87F6-95B3-45F2-A2AF-4838E2239784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EA87F6-95B3-45F2-A2AF-4838E2239784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EA87F6-95B3-45F2-A2AF-4838E2239784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3537BB65-E976-47FF-8521-C68665A04404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3537BB65-E976-47FF-8521-C68665A04404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3537BB65-E976-47FF-8521-C68665A04404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3537BB65-E976-47FF-8521-C68665A04404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
