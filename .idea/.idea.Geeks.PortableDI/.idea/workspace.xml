@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3016d698-33c5-46b6-b716-0049c1a05b47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/.idea.Geeks.PortableDI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortableDI/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/Geeks.PortableDI.Tests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/ResolverTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/SpecificationTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/StandardDIContainerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Geeks.PortableDI.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Binding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/BindingBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/DIContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Geeks.PortableDI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IDIContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IDIPackage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Request.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/ResolverException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Resolvers/IRequestResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Resolvers/MethodCallResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Resolvers/StandardResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Specifications/IBindingSpecification.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Specifications/NameRegistrationSpecification.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Specifications/TypeSpecification.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/StandardDIContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingAndOrToSyntax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingAndSyntax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingInSyntax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingToSyntax.cs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PortableDI/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/Resolvers/IRequestResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/Helper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/IDIContainer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PortableDI/Class1.cs" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/Resolvers/test.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/Resources.Designer.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/Resources.resx" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e3q9d0hzKwrPmIfmpSKffwqW4s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3016d698-33c5-46b6-b716-0049c1a05b47" name="Default Changelist" comment="" />
+      <created>1593560473340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593560473340</updated>
+      <workItem from="1593560484347" duration="58000" />
+      <workItem from="1593560551687" duration="2454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1430" y="718" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1593561684131">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state x="1430" y="718" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593561684131" />
+    <state x="1200" y="624" key="Rider.ProjectTemplateDialog.Size" timestamp="1593561855378">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state x="1200" y="624" key="Rider.ProjectTemplateDialog.Size/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593561855378" />
+    <state x="1240" y="624" width="719" height="580" key="find.popup" timestamp="1593562887756">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state x="1240" y="624" width="719" height="580" key="find.popup/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593562887756" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PortableDI/StandardDIContainer.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" initialLine="35">
+            <startOffsets>
+              <option value="940" />
+            </startOffsets>
+            <endOffsets>
+              <option value="960" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

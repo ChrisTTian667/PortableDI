@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_Geeks.PortableDI.-847689092.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Geeks.PortableDI.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PortableDI" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Binding.cs" t="Include" />
+        <e p="BindingBuilder.cs" t="Include" />
+        <e p="DIContainer.cs" t="Include" />
+        <e p="IBinding.cs" t="Include" />
+        <e p="IDIContainer.cs" t="Include" />
+        <e p="IDIPackage.cs" t="Include" />
+        <e p="IRequest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="PortableDI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PortableDI.csproj" t="IncludeRecursive" />
+        <e p="Request.cs" t="Include" />
+        <e p="ResolverException.cs" t="Include" />
+        <e p="Resolvers" t="Include">
+          <e p="IRequestResolver.cs" t="Include" />
+          <e p="MethodCallResolver.cs" t="Include" />
+          <e p="StandardResolver.cs" t="Include" />
+        </e>
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Specifications" t="Include">
+          <e p="IBindingSpecification.cs" t="Include" />
+          <e p="NameRegistrationSpecification.cs" t="Include" />
+          <e p="TypeSpecification.cs" t="Include" />
+        </e>
+        <e p="StandardDIContainer.cs" t="Include" />
+        <e p="Syntax" t="Include">
+          <e p="IBindingAndOrToSyntax.cs" t="Include" />
+          <e p="IBindingAndSyntax.cs" t="Include" />
+          <e p="IBindingInSyntax.cs" t="Include" />
+          <e p="IBindingToSyntax.cs" t="Include" />
+        </e>
+      </e>
+      <e p="PortableDI.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Helper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PortableDI.Tests.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ResolverTests.cs" t="Include" />
+        <e p="SpecificationTests.cs" t="Include" />
+        <e p="StandardDIContainerTests.cs" t="Include" />
+      </e>
+      <e p="readme.txt" t="Include" />
+      <e p="Scripts" t="Include" />
+    </e>
+  </component>
+</project>
