@@ -5,8 +5,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using PortableDI.Syntax;
 
-[assembly: InternalsVisibleTo("PortableDI.Tests")]
-
+[assembly: InternalsVisibleTo("PortableDI.Tests, PublicKey=00240000048000009400000006020000002400005253413100040000010001002f8670765df1fa" + 
+                                                           "e6d8d9096536f0215abfcd4a5a661db3ca56fc50ed7b212c5033594deb6655554f76ddf803d1d1" + 
+                                                           "75dba8e5907cec75259671d69f3aba0477eedd421289d12b7894f164981c2fa4d5aa953d4ee884" + 
+                                                           "531e334958e2f9e52c950bda1834f7328b445c7818847efa20c53f98ba38f9df3aa17e02ba053a" + 
+                                                           "e034f888")]
 namespace PortableDI
 {
     internal class StandardDIContainer : IDIContainer
