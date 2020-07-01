@@ -27,7 +27,6 @@ namespace PortableDI.Tests
         public void MethodCallResolver_WithoutRequest_ReturnsNotNull()
         {
             var resolver = new MethodCallResolver<EmptyCtorClass>(() => { return new EmptyCtorClass(); });
-
             var result = resolver.Resolve(new Request(typeof(IEmptyClass)));
 
             Assert.IsTrue(result is EmptyCtorClass);
@@ -52,7 +51,6 @@ namespace PortableDI.Tests
             Assert.IsNotNull(result);
             Assert.IsTrue(result.CtorParam is EmptyCtorClass);
         }
-
 
         [Test]
         public void StandardResolver_WithEmptyCtor_ReturnsTestInstance()

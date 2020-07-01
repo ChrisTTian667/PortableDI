@@ -7,13 +7,6 @@ using PortableDI.Specifications;
 
 namespace PortableDI
 {
-    internal enum BindingScope
-    {
-        Normal,
-        Singleton,
-        Thread
-    }
-
     internal class Binding : IBinding
     {
         private static readonly Dictionary<int, object> _instances = new Dictionary<int, object>();

@@ -20,29 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3016d698-33c5-46b6-b716-0049c1a05b47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortableDI/BindingScope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Geeks.PortableDI.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PortableDI/Binding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Binding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/BindingBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/BindingBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/DIContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/DIContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/IBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/IDIContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IDIContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/IDIPackage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IDIPackage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/IRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Request.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Request.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/ResolverException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/ResolverException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Resolvers/IRequestResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Resolvers/IRequestResolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Specifications/NameRegistrationSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Specifications/NameRegistrationSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Specifications/TypeSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Specifications/TypeSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndOrToSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndOrToSyntax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndSyntax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingInSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingInSyntax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingToSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingToSyntax.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +36,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/Helper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/Resources.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/Resolvers/IRequestResolver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/Helper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/BindingScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/DIContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/Binding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/IBinding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/IRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/BindingBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/IDIPackage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI.Tests/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/ResolverException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PortableDI/IDIContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PortableDI/Request.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,8 +71,9 @@
         <option value="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" />
         <option value="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" />
         <option value="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" />
-        <option value="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" />
         <option value="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" />
+        <option value="$PROJECT_DIR$/PortableDI/Binding.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593560473340</updated>
       <workItem from="1593560484347" duration="58000" />
-      <workItem from="1593560551687" duration="2758000" />
+      <workItem from="1593560551687" duration="3263000" />
     </task>
     <servers />
   </component>

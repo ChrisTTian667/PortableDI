@@ -10,6 +10,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Binding.cs" t="Include" />
         <e p="BindingBuilder.cs" t="Include" />
+        <e p="BindingScope.cs" t="Include" />
         <e p="DIContainer.cs" t="Include" />
         <e p="IBinding.cs" t="Include" />
         <e p="IDIContainer.cs" t="Include" />
@@ -57,8 +58,6 @@
         <e p="SpecificationTests.cs" t="Include" />
         <e p="StandardDIContainerTests.cs" t="Include" />
       </e>
-      <e p="readme.txt" t="Include" />
-      <e p="Scripts" t="Include" />
     </e>
   </component>
 </project>

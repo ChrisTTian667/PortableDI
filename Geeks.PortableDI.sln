@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B5370186-8558-4F1C-9957-F27B161D1B0E}"
-	ProjectSection(SolutionItems) = preProject
-		readme.txt = readme.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableDI", "PortableDI\PortableDI.csproj", "{59A980F0-D1B2-4246-9147-3FB73F21BB89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableDI.Tests", "PortableDI.Tests\PortableDI.Tests.csproj", "{06504A02-01C9-401E-8A01-80593B05D110}"
