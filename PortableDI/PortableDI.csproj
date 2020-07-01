@@ -5,6 +5,16 @@
         <LangVersion>8</LangVersion>
         <AssemblyVersion>1.3</AssemblyVersion>
         <FileVersion>1.3</FileVersion>
+        <PackOnBuild>true</PackOnBuild>
+        <PackageVersion>1.3</PackageVersion>
+        <Authors>Christian Daniel &amp; Robert Ewen</Authors>
+        <Copyright>Christian Daniel &amp; Robert Ewen</Copyright>
+        <Owners>Christian Daniel &amp; Robert Ewen</Owners>
+        <PackageReleaseNotes>Version 1.3 ported to .NET Standard 2.0</PackageReleaseNotes>
+        <Summary>Very powerful but extremly lightweight and portable DI container.</Summary>
+        <Title>PortableDI</Title>
+        <Description>Very powerful but extremly lightweight and portable DI container.</Description>
+        <PackageId>PortableDI</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,4 +32,10 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NuGet.Build.Packaging" Version="0.2.5-dev.8">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+    </ItemGroup>
 </Project>
