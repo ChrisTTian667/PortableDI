@@ -20,46 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3016d698-33c5-46b6-b716-0049c1a05b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/.idea.Geeks.PortableDI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Geeks.PortableDI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortableDI/Resources.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/Geeks.PortableDI.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/ResolverTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/SpecificationTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.Tests/StandardDIContainerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Geeks.PortableDI.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Binding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/BindingBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/DIContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Geeks.PortableDI.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IDIContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IDIPackage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/IRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Request.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/ResolverException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Resolvers/IRequestResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Resolvers/MethodCallResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Resolvers/StandardResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Specifications/IBindingSpecification.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Specifications/NameRegistrationSpecification.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Specifications/TypeSpecification.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/StandardDIContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingAndOrToSyntax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingAndSyntax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingInSyntax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geeks.PortableDI/Syntax/IBindingToSyntax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Binding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Binding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/BindingBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/BindingBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/DIContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/DIContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/IBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IBinding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/IDIContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IDIContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/IDIPackage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IDIPackage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/IRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/IRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Request.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Request.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/ResolverException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/ResolverException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Resolvers/IRequestResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Resolvers/IRequestResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Resolvers/MethodCallResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Resolvers/StandardResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Specifications/NameRegistrationSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Specifications/NameRegistrationSpecification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Specifications/TypeSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Specifications/TypeSpecification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndOrToSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndOrToSyntax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingAndSyntax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingInSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingInSyntax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortableDI/Syntax/IBindingToSyntax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PortableDI/Syntax/IBindingToSyntax.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +79,8 @@
         <option value="$PROJECT_DIR$/PortableDI.Tests/SpecificationTests.cs" />
         <option value="$PROJECT_DIR$/PortableDI.Tests/Helper.cs" />
         <option value="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" />
-        <option value="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" />
         <option value="$PROJECT_DIR$/PortableDI.Tests/ResolverTests.cs" />
+        <option value="$PROJECT_DIR$/PortableDI.Tests/StandardDIContainerTests.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +98,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34985608" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29996803" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -138,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593560473340</updated>
       <workItem from="1593560484347" duration="58000" />
-      <workItem from="1593560551687" duration="2454000" />
+      <workItem from="1593560551687" duration="2758000" />
     </task>
     <servers />
   </component>
@@ -162,10 +147,79 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1430" y="718" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1593561684131">
+    <state x="1430" y="739" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1593563295562">
+      <screen x="0" y="23" width="3200" height="1777" />
+    </state>
+    <state x="1430" y="739" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/3200.23.3360.1815/-3360.23.3360.1867/0.23.3200.1777@0.23.3200.1777" timestamp="1593563295562" />
+    <state x="1430" y="718" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593561684131" />
+    <state width="447" height="646" key="DebuggerActiveHint" timestamp="1593563025658">
       <screen x="0" y="23" width="3200" height="1725" />
     </state>
-    <state x="1430" y="718" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593561684131" />
+    <state width="447" height="646" key="DebuggerActiveHint/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563025658" />
+    <state width="3158" height="635" key="GridCell.Tab.0.bottom" timestamp="1593563035135">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.0.bottom/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035135" />
+    <state width="3158" height="635" key="GridCell.Tab.0.center" timestamp="1593563035135">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.0.center/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035135" />
+    <state width="3158" height="635" key="GridCell.Tab.0.left" timestamp="1593563035135">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.0.left/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035135" />
+    <state width="3158" height="635" key="GridCell.Tab.0.right" timestamp="1593563035135">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.0.right/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035135" />
+    <state width="3158" height="635" key="GridCell.Tab.1.bottom" timestamp="1593563035136">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.1.bottom/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035136" />
+    <state width="3158" height="635" key="GridCell.Tab.1.center" timestamp="1593563035136">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.1.center/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035136" />
+    <state width="3158" height="635" key="GridCell.Tab.1.left" timestamp="1593563035136">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.1.left/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035136" />
+    <state width="3158" height="635" key="GridCell.Tab.1.right" timestamp="1593563035136">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.1.right/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035136" />
+    <state width="3158" height="635" key="GridCell.Tab.2.bottom" timestamp="1593563035137">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.2.bottom/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035137" />
+    <state width="3158" height="635" key="GridCell.Tab.2.center" timestamp="1593563035137">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.2.center/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035137" />
+    <state width="3158" height="635" key="GridCell.Tab.2.left" timestamp="1593563035137">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.2.left/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035137" />
+    <state width="3158" height="635" key="GridCell.Tab.2.right" timestamp="1593563035137">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.2.right/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035137" />
+    <state width="3158" height="635" key="GridCell.Tab.3.bottom" timestamp="1593563035138">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.3.bottom/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035138" />
+    <state width="3158" height="635" key="GridCell.Tab.3.center" timestamp="1593563035138">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.3.center/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035138" />
+    <state width="3158" height="635" key="GridCell.Tab.3.left" timestamp="1593563035138">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.3.left/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035138" />
+    <state width="3158" height="635" key="GridCell.Tab.3.right" timestamp="1593563035138">
+      <screen x="0" y="23" width="3200" height="1725" />
+    </state>
+    <state width="3158" height="635" key="GridCell.Tab.3.right/3200.23.3360.1867/-3360.23.3360.1867/0.23.3200.1725@0.23.3200.1725" timestamp="1593563035138" />
     <state x="1200" y="624" key="Rider.ProjectTemplateDialog.Size" timestamp="1593561855378">
       <screen x="0" y="23" width="3200" height="1725" />
     </state>
@@ -180,13 +234,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/PortableDI/StandardDIContainer.cs</url>
-          <line>35</line>
+          <line>33</line>
           <properties documentPath="$PROJECT_DIR$/PortableDI/StandardDIContainer.cs" initialLine="35">
             <startOffsets>
-              <option value="940" />
+              <option value="885" />
             </startOffsets>
             <endOffsets>
-              <option value="960" />
+              <option value="905" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

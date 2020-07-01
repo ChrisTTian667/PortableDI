@@ -1,8 +1,7 @@
 ﻿namespace PortableDI
 {
-    interface IBinding
+    internal interface IBinding
     {
-
         BindingScope Scope { get; }
 
         bool Matches(IRequest request);

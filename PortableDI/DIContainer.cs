@@ -5,7 +5,7 @@ using PortableDI.Syntax;
 namespace PortableDI
 {
     /// <summary>
-    /// The static DIContainer methods are used for binding and resolving of dependencies.
+    ///     The static DIContainer methods are used for binding and resolving of dependencies.
     /// </summary>
     public sealed class DIContainer
     {
@@ -16,10 +16,18 @@ namespace PortableDI
             _container = new StandardDIContainer();
         }
 
+        /// <summary>
+        ///     Clears the complete list of bindings.
+        /// </summary>
+        public static void Flush()
+        {
+            _container.FlushBindings();
+        }
+
         #region Resolver methods
 
         /// <summary>
-        /// Resolves a dependency by the given Type.
+        ///     Resolves a dependency by the given Type.
         /// </summary>
         /// <param name="service">The given Type you want to resolve</param>
         /// <returns>The resolved dependency.</returns>
@@ -30,7 +38,7 @@ namespace PortableDI
         }
 
         /// <summary>
-        /// Resolves a dependency of type T.
+        ///     Resolves a dependency of type T.
         /// </summary>
         /// <typeparam name="T">The Type to resolve.</typeparam>
         /// <returns>The resolved instance of type T</returns>
@@ -41,7 +49,7 @@ namespace PortableDI
         }
 
         /// <summary>
-        /// Resolves a dependency of type T which was bound with a registration name.
+        ///     Resolves a dependency of type T which was bound with a registration name.
         /// </summary>
         /// <typeparam name="T">The type to resolve.</typeparam>
         /// <param name="registrationName">The registration name that was used to bind the specified type.</param>
@@ -52,10 +60,9 @@ namespace PortableDI
             return _container.Resolve<T>(registrationName);
         }
 
-        
-        
+
         /// <summary>
-        /// Resolves a list previously bound dependencies of type T.
+        ///     Resolves a list previously bound dependencies of type T.
         /// </summary>
         /// <typeparam name="T">The type to resolve.</typeparam>
         /// <returns>A List of all bound instances of the given type T.</returns>
@@ -65,12 +72,12 @@ namespace PortableDI
             return _container.ResolveAll<T>();
         }
 
-#endregion
+        #endregion
 
         #region Query methods
 
         /// <summary>
-        /// Returns wether or not a given type T is already bound or not.
+        ///     Returns wether or not a given type T is already bound or not.
         /// </summary>
         /// <typeparam name="T">The type to query for.</typeparam>
         /// <returns>true if type T is already bound, false if not.</returns>
@@ -80,7 +87,7 @@ namespace PortableDI
         }
 
         /// <summary>
-        /// Returns wether or not a given Type is already bound or not.
+        ///     Returns wether or not a given Type is already bound or not.
         /// </summary>
         /// <param name="requestedService">The Type to query for.</param>
         /// <returns>true if requestedService is already bound, false if not.</returns>
@@ -89,12 +96,12 @@ namespace PortableDI
             return _container.IsBound(requestedService);
         }
 
-#endregion
+        #endregion
 
         #region Binding methods
 
         /// <summary>
-        /// Registers a type to be resolveable and returns a fluent syntax to finish the binding process.
+        ///     Registers a type to be resolveable and returns a fluent syntax to finish the binding process.
         /// </summary>
         /// <param name="service">The type to register as a resolvable dependency.</param>
         /// <returns>The fluent syntax to finish the binding process if the given type is of type interface or abstract.</returns>
@@ -104,7 +111,7 @@ namespace PortableDI
         }
 
         /// <summary>
-        /// Registers a type to be resolveable and returns a fluent syntax to finish the binding process.
+        ///     Registers a type to be resolveable and returns a fluent syntax to finish the binding process.
         /// </summary>
         /// <typeparam name="T">The type to register as a resolvable dependency.</typeparam>
         /// <returns>The fluent syntax to finish the binding process if the given type is of type interface or abstract.</returns>
@@ -114,7 +121,7 @@ namespace PortableDI
         }
 
         /// <summary>
-        /// Removes a previously bound type from the list of resolveable dependencies.
+        ///     Removes a previously bound type from the list of resolveable dependencies.
         /// </summary>
         /// <param name="service">The Type to unregister.</param>
         /// <returns>True if the type was bound, false if there was no dependency registered for this type.</returns>
@@ -124,7 +131,7 @@ namespace PortableDI
         }
 
         /// <summary>
-        /// Calls package.Load with the integrated IDIContainer instance
+        ///     Calls package.Load with the integrated IDIContainer instance
         /// </summary>
         /// <param name="package"></param>
         public static void BindPackage(IDIPackage package)
@@ -132,14 +139,6 @@ namespace PortableDI
             package.Load(_container);
         }
 
-#endregion
-
-        /// <summary>
-        /// Clears the complete list of bindings.
-        /// </summary>
-        public static void Flush()
-        {
-            _container.FlushBindings();
-        }
+        #endregion
     }
 }

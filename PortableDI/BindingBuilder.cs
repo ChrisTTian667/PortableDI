@@ -1,10 +1,12 @@
 ﻿using System;
 using PortableDI.Resolvers;
+using PortableDI.Specifications;
 using PortableDI.Syntax;
 
 namespace PortableDI
 {
-    internal class BindingBuilder<T> : IBindingAndOrToSyntax<T>, IBindingAndSyntax<T>, IBindingToSyntax<T>, IBindingInSyntax<T>
+    internal class BindingBuilder<T> : IBindingAndOrToSyntax<T>, IBindingAndSyntax<T>, IBindingToSyntax<T>,
+        IBindingInSyntax<T>
     {
         private readonly Binding _binding;
         private readonly IDIContainer _container;
@@ -26,13 +28,13 @@ namespace PortableDI
 
         public IBindingInSyntax<T> To<TImplementation>(string registrationName) where TImplementation : T
         {
-            _binding.Specifications.Add(new Specifications.NameRegistrationSpecification(registrationName));
-            return this.To<TImplementation>();
+            _binding.Specifications.Add(new NameRegistrationSpecification(registrationName));
+            return To<TImplementation>();
         }
 
         public IBindingInSyntax<T> To(Type type)
         {
-            _binding.Resolver = new StandardResolver(type,_container);
+            _binding.Resolver = new StandardResolver(type, _container);
             return this;
         }
 
@@ -69,6 +71,5 @@ namespace PortableDI
         }
 
         #endregion IBindingInSyntax<T> Members
-
     }
 }

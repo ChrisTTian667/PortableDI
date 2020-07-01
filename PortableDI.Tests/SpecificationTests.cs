@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using PortableDI;
 using PortableDI.Specifications;
 
 namespace PortableDI.Tests
@@ -7,14 +6,6 @@ namespace PortableDI.Tests
     [TestFixture]
     public class SpecificationTests
     {
-        [Test]
-        public void NameRegistration_ReturnsTrue()
-        {
-            var spec = new NameRegistrationSpecification("MyRegName");
-            var request = new Request(typeof(object), "MyRegName");
-            Assert.IsTrue(spec.Satisfied(request));
-        }
-
         [Test]
         public void NameRegistration_CamelcaseMisstake_ReturnsFalse()
         {
@@ -24,10 +15,10 @@ namespace PortableDI.Tests
         }
 
         [Test]
-        public void TypeSpecification_ReturnsTrue()
+        public void NameRegistration_ReturnsTrue()
         {
-            var spec = new TypeSpecification(typeof(IEmptyClass));
-            var request = new Request(typeof(IEmptyClass));
+            var spec = new NameRegistrationSpecification("MyRegName");
+            var request = new Request(typeof(object), "MyRegName");
             Assert.IsTrue(spec.Satisfied(request));
         }
 
@@ -38,6 +29,13 @@ namespace PortableDI.Tests
             var request = new Request(typeof(IParamClass));
             Assert.IsFalse(spec.Satisfied(request));
         }
-        
+
+        [Test]
+        public void TypeSpecification_ReturnsTrue()
+        {
+            var spec = new TypeSpecification(typeof(IEmptyClass));
+            var request = new Request(typeof(IEmptyClass));
+            Assert.IsTrue(spec.Satisfied(request));
+        }
     }
 }

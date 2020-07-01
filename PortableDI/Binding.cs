@@ -16,21 +16,21 @@ namespace PortableDI
 
     internal class Binding : IBinding
     {
+        private static readonly Dictionary<int, object> _instances = new Dictionary<int, object>();
+
         public Binding(Type boundType)
         {
             Scope = BindingScope.Normal;
             Specifications = new List<IBindingSpecification>();
             // there is always a type specification !
-            Specifications.Add(new Specifications.TypeSpecification(boundType));
+            Specifications.Add(new TypeSpecification(boundType));
         }
 
         internal IRequestResolver Resolver { get; set; }
 
-        internal List<IBindingSpecification> Specifications { get; private set; }
+        internal List<IBindingSpecification> Specifications { get; }
 
         public object ServiceInstance { get; set; }
-
-        private static readonly Dictionary<int, object> _instances = new Dictionary<int, object>();
 
         private static object ThreadStaticInstance
         {
@@ -57,7 +57,7 @@ namespace PortableDI
 
         public bool Matches(IRequest request)
         {
-            return Specifications.All(spec => spec.Satisfied(request) != false);
+            return Specifications.All(spec => spec.Satisfied(request));
         }
 
         public object Resolve(IRequest request)

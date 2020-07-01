@@ -4,8 +4,8 @@ namespace PortableDI.Resolvers
 {
     internal class MethodCallResolver<T> : IRequestResolver
     {
-        private readonly Func<IRequest, T> _callbackWithRequest;
         private readonly Func<T> _callbackWithoutRequest;
+        private readonly Func<IRequest, T> _callbackWithRequest;
 
         public MethodCallResolver(Func<IRequest, T> callback)
         {
@@ -24,10 +24,10 @@ namespace PortableDI.Resolvers
                 var result = _callbackWithRequest != null
                     ? _callbackWithRequest(request)
                     : _callbackWithoutRequest();
-                
+
                 return result;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw new ResolverException(Resources.Exception_BoundMethodException, ex);
             }

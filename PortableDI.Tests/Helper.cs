@@ -1,18 +1,15 @@
 ﻿namespace PortableDI.Tests
 {
-
     public interface IEmptyClass
     {
     }
 
     public interface IParamClass
-    { }
+    {
+    }
 
     public class EmptyCtorClass : IEmptyClass
     {
-        public EmptyCtorClass()
-        {
-        }
     }
 
     public class PrivateCtorClass : IEmptyClass
@@ -22,7 +19,7 @@
             PrivateCtorCalled = true;
         }
 
-        public bool PrivateCtorCalled { get; private set; }
+        public bool PrivateCtorCalled { get; }
     }
 
     public class OneParamCtorClass : IParamClass
@@ -32,13 +29,10 @@
             CtorParam = param;
         }
 
-        public IEmptyClass CtorParam { get; private set; }
+        public IEmptyClass CtorParam { get; }
     }
 
     public class EmptyClassTwo : IEmptyClass
     {
-        public EmptyClassTwo()
-        {
-        }
     }
 }

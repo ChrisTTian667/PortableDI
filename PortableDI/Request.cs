@@ -11,9 +11,9 @@ namespace PortableDI
             RequestedService = requestedService;
         }
 
-        public Type RequestedService { get; private set; }
+        public Type RequestedService { get; }
 
-        public string RequestedName { get; private set; }
+        public string RequestedName { get; }
 
         public override string ToString()
         {

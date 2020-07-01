@@ -1,6 +1,6 @@
 ﻿namespace PortableDI.Resolvers
 {
-    interface IRequestResolver
+    internal interface IRequestResolver
     {
         object Resolve(IRequest request);
     }

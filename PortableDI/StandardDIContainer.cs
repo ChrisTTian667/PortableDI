@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using PortableDI.Syntax;
 using System.Runtime.CompilerServices;
-[assembly:InternalsVisibleTo("PortableDI.Tests")]
+using PortableDI.Syntax;
+
+[assembly: InternalsVisibleTo("PortableDI.Tests")]
+
 namespace PortableDI
 {
     internal class StandardDIContainer : IDIContainer
     {
         private readonly IList<Binding> _bindings = new List<Binding>();
-
-        public StandardDIContainer()
-        {
-        }
 
         internal void FlushBindings()
         {
@@ -34,9 +32,9 @@ namespace PortableDI
             var binding = ResolveBinding(request);
 
             if (binding == null)
-                throw new ResolverException(string.Format(Resources.Exception_NoBindingFound, request.ToString()));
+                throw new ResolverException(string.Format(Resources.Exception_NoBindingFound, request));
 
-            return (T)binding.Resolve(request);
+            return (T) binding.Resolve(request);
         }
 
         private Binding ResolveBinding(Request request)
@@ -66,18 +64,18 @@ namespace PortableDI
 
         public T Resolve<T>()
         {
-            return this.InnerResolve<T>();
+            return InnerResolve<T>();
         }
 
         public T Resolve<T>(string registrationName)
         {
-            return this.InnerResolve<T>(registrationName);
+            return InnerResolve<T>(registrationName);
         }
 
         public object Resolve(Type service)
         {
-            MethodInfo method = typeof(StandardDIContainer).GetMethod("Resolve", new Type[] { });
-            MethodInfo genericMethod = method.MakeGenericMethod(service);
+            var method = typeof(StandardDIContainer).GetMethod("Resolve", new Type[] { });
+            var genericMethod = method.MakeGenericMethod(service);
 
             try
             {
@@ -91,7 +89,7 @@ namespace PortableDI
 
         public bool Unbind(Type service)
         {
-            var request = new Request(service, null);
+            var request = new Request(service);
             var binding = ResolveBinding(request);
 
             _bindings.Remove(binding);
@@ -114,7 +112,7 @@ namespace PortableDI
         private bool InnerIsBound(Type requestedService, string registrationName = null)
         {
             var request = new Request(requestedService, registrationName);
-            return (ResolveBinding(request) != null);
+            return ResolveBinding(request) != null;
         }
 
         #endregion IsBound
@@ -128,7 +126,7 @@ namespace PortableDI
             if (!bindings.Any())
                 return new List<T>();
 
-            return new List<T>(bindings.Select(b => (T)b.Resolve(request)));
+            return new List<T>(bindings.Select(b => (T) b.Resolve(request)));
         }
 
         private IEnumerable<Binding> ResolveAllBindings(Request request)

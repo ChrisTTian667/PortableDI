@@ -7,8 +7,8 @@ namespace PortableDI.Resolvers
 {
     internal class StandardResolver : IRequestResolver
     {
-        private readonly Type _implementationType;
         private readonly IDIContainer _container;
+        private readonly Type _implementationType;
 
         public StandardResolver(Type implementationType, IDIContainer container)
         {
@@ -37,12 +37,10 @@ namespace PortableDI.Resolvers
             try
             {
                 foreach (var param in parameters)
-                {
-                    if (param.DefaultValue != null && (_container.IsBound(param.ParameterType) == false))
+                    if (param.DefaultValue != null && _container.IsBound(param.ParameterType) == false)
                         result.Add(param.DefaultValue);
                     else
                         result.Add(_container.Resolve(param.ParameterType));
-                }
             }
             catch (Exception)
             {
@@ -55,12 +53,12 @@ namespace PortableDI.Resolvers
         private ConstructorInfo FindConstructorWithFewestParameters()
         {
             var ctors = _implementationType.GetConstructors();
-            int smallestCount = 1000; // the potential that a ctor has more than 1000 parameters is very small ;-)
+            var smallestCount = 1000; // the potential that a ctor has more than 1000 parameters is very small ;-)
             ConstructorInfo smallest = null;
             foreach (var ctor in ctors)
             {
                 var currentCount = ctor.GetParameters().Count();
-                if (smallestCount <= currentCount) 
+                if (smallestCount <= currentCount)
                     continue;
 
                 smallestCount = currentCount;

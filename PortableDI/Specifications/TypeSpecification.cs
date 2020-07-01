@@ -9,11 +9,11 @@ namespace PortableDI.Specifications
             Service = service;
         }
 
-        public Type Service { get; private set; }
+        public Type Service { get; }
 
         public bool Satisfied(IRequest request)
         {
-            return (Service == request.RequestedService);
+            return Service == request.RequestedService;
         }
     }
 }

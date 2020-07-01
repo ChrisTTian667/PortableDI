@@ -13,7 +13,7 @@
 
         public bool Satisfied(IRequest request)
         {
-            return (request.RequestedName == _registrationName);
+            return request.RequestedName == _registrationName;
         }
 
         #endregion IBindingSpecification Members
